@@ -1,5 +1,18 @@
+# NOTIFICATIONS
 dunst &
+
+# WM Compositor
 picom -b
-pulseaudio -D 
+
+# SYSTEM STATUS BAR
 polybar example &
+
+# WALLPAPER
 nitrogen --restore &
+
+# AUDIO
+start-pulse-audio-x11
+volumeicon &
+
+# SCREENSHOT
+flameshot
